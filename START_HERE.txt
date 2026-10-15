@@ -1,0 +1,12 @@
+DATES SLOVENIA — START HERE
+
+1) Create an empty app repository/folder and open it in Codex.
+2) Add both CODEX_MASTER_PROMPT.md and AGENTS.md to the top level of that repository.
+3) Paste this message into Codex:
+
+Read CODEX_MASTER_PROMPT.md and AGENTS.md in full. You're building the working Dates Slovenia V1 mobile app, not just a UI concept. Inspect the repository, then implement Phase 0 and Phase 1 sequentially. Choose compatible current stable Expo/React Native/TypeScript libraries. Build the onboarding, personalized Home, search/Explore, advanced filters, real Slovenia map with demo pins, date detail pages, guest Saved for Later with persistence, sample Slovenian content, and polished navigation. Run typecheck, lint, and relevant tests; fix issues. Keep core browsing free without sign-in. Label demo data clearly; do not fabricate venue facts or build unfinished payments. Document all steps a nontechnical founder must perform, and report what actually works and what external configuration is required. Once Phase 1 is complete, proceed to Phase 2 (Supabase/Auth/RLS) if the repository has the necessary environment and access; otherwise explain exact next manual actions and keep the app fully testable in demo mode.
+
+4) For future sessions, ask Codex to read those files before continuing.
+5) Before publication, personally supply real curated date ideas, approved footage/photos, privacy policy/terms, verified venue facts, Supabase/EAS accounts, and Apple/Google developer accounts.
+
+If you have an existing app repo, add the files without overwriting project files; Codex should inspect and adapt rather than recreate it.

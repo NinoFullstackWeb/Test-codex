@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e5e5e5">
+  <title>Dates Slovenia — prototip</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="wordmark" data-screen="home" aria-label="Domov">DATES SLOVENIA <span>PROTOTIP</span></button>
+      <button class="location-button" id="city-button">Ljubljana <span>Spremeni</span></button>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <nav class="tabbar" aria-label="Glavna navigacija">
+      <button data-screen="home" class="tab active">Domov</button>
+      <button data-screen="explore" class="tab">Razišči</button>
+      <button data-screen="map" class="tab">Zemljevid</button>
+      <button data-screen="saved" class="tab">Shranjeno <span id="saved-count"></span></button>
+      <button data-screen="profile" class="tab">Profil</button>
+    </nav>
+  </div>
+  <div id="modal-root"></div>
+  <script src="app.js"></script>
+</body>
+</html>
